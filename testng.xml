@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes" thread-count="4">
+
+    <test name="Regression Tests">
+    <groups>
+        <run>
+            <include name="arithmetic"/>
+
+
+        </run>
+    </groups>
+
+    <classes>
+        <class name="com.epam.tat.module4.SumLongTest"/>
+        <class name="com.epam.tat.module4.SumDoubleTest"/>
+        <class name="com.epam.tat.module4.SubLongTest"/>
+        <class name="com.epam.tat.module4.SubDoubleTest"/>
+    </classes>
+
+    </test>
+</suite>
