@@ -20,7 +20,7 @@ public class SubDoubleTest {
                 //Happy path
                 {20.1,10.0,10.1},
                 {-200.1,-100.1,-100.0},
-                {-100.9,50.1,-150.6},
+                {-100.9,50.1,-151.0},
 
                 //Cero path
                 {Double.MIN_VALUE,0.0,Double.MIN_VALUE},
@@ -42,6 +42,5 @@ public void testSubDouble(double a,double b, double expected){
     public void tearDown() {
         calculator =null;
         System.out.println("Ended Testing for sub (Double)");
-
     }
 }

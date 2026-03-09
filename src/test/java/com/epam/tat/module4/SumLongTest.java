@@ -1,6 +1,6 @@
 package com.epam.tat.module4;
 
-import com.epam.tat.module4.Calculator;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
